@@ -1,0 +1,19 @@
+body{
+    background-color: black;
+}
+#socialMedia{
+    font-size: 5rem;
+    color: antiquewhite;
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+#socialMedia a {
+    color: antiquewhite;
+    text-decoration: none;
+}
+#socialMedia a:visited {
+    color: antiquewhite;
+    text-decoration: none;
+}
