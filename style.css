@@ -17,3 +17,69 @@ body{
     color: antiquewhite;
     text-decoration: none;
 }
+#photoContainer{
+    display: flex;
+    justify-content: center;
+}
+#photoContainer img {
+    width: 50vw;
+    height: 50vw;
+    object-fit: cover;
+    object-position: 0 5vw;
+    margin: 0 0 0 0;
+}
+#centeredImage{
+    display: flex;
+    justify-content: center;
+}
+#centeredImage img {
+    width: 10vw;
+    height: 10vw;
+    margin-top: -6vw;
+}
+#introducer{
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#Itext h1{
+    text-align: center;
+}
+#Itext p{
+    margin: 0 auto;
+}
+.boxcontainer{
+    display: flex;
+    justify-content: space-between;
+}   
+#introducer i{
+    font-size: 5vw;
+}
+.boxes{
+    margin: 30px 30px;
+    display: flex;
+    align-items: center;
+}
+.boxes > div {
+    margin-left: 30px;
+}
+
+#knowledge{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+#knowledge i {
+    margin-right: 30px;
+}
+#knowledge > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+hr{
+    width: 100%;
+    border: 1px solid black ;
+}
